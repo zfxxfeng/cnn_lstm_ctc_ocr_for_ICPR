@@ -51,8 +51,16 @@ python test.py
 
 ### Results
 Here are some results on [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.5022b86af5JwV4&raceId=231650):
-
-
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/1.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/1_1.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/2.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/2_2.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/3.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/3_3.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/4.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/4_4.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/5.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/5_5.jpg)
 # Enjoy yourself
 
 
