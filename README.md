@@ -24,11 +24,12 @@ Next, use mjsynth-tfrecord.py to change your data into tfrecord.You can Find the
 ### Models
 I use the new word_dictionary which consists of English, Chinese and number.I only upload a old pretrain model,May it works badly. If you train it for one day with your data,it will work well.And,I add some data augmentation for the model.
 You also can change the model to denseNet,it will work better.Do as follows in the train.py :
-'''
+```
 Import denseNet 
 %features,sequence_length = model.convnet_layers( image, width, mode)
 features,sequence_length = zf_mod_denseNet2.Dense_net( image, width, mode)
-'''
+```
+
 Models trained on [ICPR MTWI 2018 (train)](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.33e4b86aZXVkts&raceId=231650): [[model_download](https://pan.baidu.com/s/15IxbqsiuxFyAx8zFsCVe8g)].The password is ydtv.
 Some English data can find in [[weinman](http://www.robots.ox.ac.uk/~vgg/data/text/mjsynth.tar.gz)]
 ### Demo
