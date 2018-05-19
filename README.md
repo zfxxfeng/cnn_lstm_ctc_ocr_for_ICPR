@@ -57,7 +57,7 @@ python test.py
 
 ### Results
 Here are some results on [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.5022b86af5JwV4&raceId=231650):
-<br>![image](https://github.com/HaozhengLi/EAST_ICPR/blob/master/results/100k/img_1.jpg)
+<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/result.jpg)
 # Enjoy yourself
 
 
