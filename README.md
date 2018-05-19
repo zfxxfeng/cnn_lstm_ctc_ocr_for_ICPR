@@ -22,7 +22,7 @@ You should cut the data by yourself.Use the target_cut.py. Change the data path 
 Next, use mjsynth-tfrecord.py to change your data into tfrecord.You can Find the way in [[weinman/cnn_lstm_ctc_ocr/Makefile](https://github.com/weinman/cnn_lstm_ctc_ocr/blob/master/Makefile)] You only need to change some paths.
 
 ### Models
-I use the new word_dictionary which consists of English, Chinese and number.I only upload a old pretrain model,May it works badly. If you train it for one day with your data,it will work well.And,I add some data augmentation for the model.
+I use the new word_dictionary which consists of English, Chinese and number.I only upload a old pretrain model,it works badly. If you train it for one day with your data,it will work well.And,I add some data augmentation for the model.
 You also can change the model to denseNet,it will work better.Do as follows in the train.py :
 ```
 Import denseNet 
