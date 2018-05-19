@@ -22,7 +22,13 @@ You should cut the data by yourself.Use the target_cut.py. Change the data path 
 Next, use mjsynth-tfrecord.py to change your data into tfrecord.You can Find the way in [[weinman/cnn_lstm_ctc_ocr/Makefile](https://github.com/weinman/cnn_lstm_ctc_ocr/blob/master/Makefile)] You only need to change some path.
 
 ### Models
-I use the new word_dictionary which consists of English, Chinese and number.I only upload a old pretrain model,May it works badly. if you train it for one day with your data,it will work well.
+I use the new word_dictionary which consists of English, Chinese and number.I only upload a old pretrain model,May it works badly. if you train it for one day with your data,it will work well.What¡®s more,I add some data augmentation for the model.
+You also can change the model to denseNet,it will work better.Do as follows in the train.py :
+'''
+Import denseNet 
+  # features,sequence_length = model.convnet_layers( image, width, mode)
+    features,sequence_length = zf_mod_denseNet2.Dense_net( image, width, mode)
+'''
 Models trained on [ICPR MTWI 2018 (train)](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.33e4b86aZXVkts&raceId=231650): [[model_download](https://pan.baidu.com/s/15IxbqsiuxFyAx8zFsCVe8g)].The password is ydtv.
 Some English data can find in [[weinman](http://www.robots.ox.ac.uk/~vgg/data/text/mjsynth.tar.gz)]
 ### Demo
@@ -51,7 +57,7 @@ python test.py
 
 ### Results
 Here are some results on [ICPR MTWI 2018](https://tianchi.aliyun.com/competition/information.htm?spm=5176.100067.5678.2.5022b86af5JwV4&raceId=231650):
-<br>![image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/tree/master/data/test_image/result.jpg)
+[image](https://github.com/zfxxfeng/cnn_lstm_ctc_ocr_for_ICPR/blob/master/data/test_image/result.jpg)
 # Enjoy yourself
 
 
