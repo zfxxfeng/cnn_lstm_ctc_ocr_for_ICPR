@@ -41,7 +41,7 @@ eg.python validate.py E:/1.jpg
 
 
 ### Train
-I already upload  MTWI 2018 data£¬You can download and copy to data/model/.After that ,train the model for a day,you can get your own model.[ICPR MTWI 2018 data+extra Eng-data+Eng-data](https://pan.baidu.com/s/1piyT5lvA0IXCu9gBQ5Gwsg).The password is 2vfb.
+I already upload  MTWI 2018 data£¬You can download and copy to data/model/.After that ,train the model for a day,you can get your own model.[[ICPR MTWI 2018 data+extra Eng-data+Eng-data](https://pan.baidu.com/s/1piyT5lvA0IXCu9gBQ5Gwsg)].The password is 2vfb.
 When we make your data to tfrecord,You can train. 
 ```
 cd src
